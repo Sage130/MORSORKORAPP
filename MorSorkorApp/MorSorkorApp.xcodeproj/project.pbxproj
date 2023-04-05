@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78EB9DC2E8D68488266963F4 /* Pods_MorSorkorApp__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F137063875EE3769C78FEB /* Pods_MorSorkorApp__macOS_.framework */; };
+		A9551F8F29DC663800C68AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9551F8E29DC663800C68AED /* ContentView.swift */; };
+		A9551F9029DC663E00C68AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9551F8E29DC663800C68AED /* ContentView.swift */; };
+		A9551F9729DD03AD00C68AED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9551F9629DD03AD00C68AED /* GoogleService-Info.plist */; };
+		A9551F9829DD03AD00C68AED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9551F9629DD03AD00C68AED /* GoogleService-Info.plist */; };
+		A989BE9229DD05FC00D79A3D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BE9129DD05FC00D79A3D /* AuthViewModel.swift */; };
+		A989BE9429DD06BA00D79A3D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BE9329DD06BA00D79A3D /* SplashScreenView.swift */; };
+		A989BE9729DD074B00D79A3D /* pageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BE9629DD074B00D79A3D /* pageIntro.swift */; };
+		A989BE9A29DD07B300D79A3D /* pageLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BE9929DD07B300D79A3D /* pageLogin.swift */; };
+		A989BE9C29DD07CB00D79A3D /* pageLogout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BE9B29DD07CB00D79A3D /* pageLogout.swift */; };
+		A989BEA129DD537C00D79A3D /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BE9E29DD537C00D79A3D /* NotoSansThai-Bold.ttf */; };
+		A989BEA229DD537C00D79A3D /* NotoSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BE9E29DD537C00D79A3D /* NotoSansThai-Bold.ttf */; };
+		A989BEA329DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BE9F29DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf */; };
+		A989BEA429DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BE9F29DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf */; };
+		A989BEA529DD537C00D79A3D /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BEA029DD537C00D79A3D /* NotoSansThai-Regular.ttf */; };
+		A989BEA629DD537C00D79A3D /* NotoSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A989BEA029DD537C00D79A3D /* NotoSansThai-Regular.ttf */; };
+		A989BEA829DD5E3F00D79A3D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BEA729DD5E3F00D79A3D /* LoginView.swift */; };
+		A989BEA929DD5E3F00D79A3D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A989BEA729DD5E3F00D79A3D /* LoginView.swift */; };
+		AD4A89C7278EFF9500C06E7B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89C6278EFF9500C06E7B /* Tests_iOS.swift */; };
+		AD4A89C9278EFF9500C06E7B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89C8278EFF9500C06E7B /* Tests_iOSLaunchTests.swift */; };
+		AD4A89D3278EFF9500C06E7B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89D2278EFF9500C06E7B /* Tests_macOS.swift */; };
+		AD4A89D5278EFF9500C06E7B /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89D4278EFF9500C06E7B /* Tests_macOSLaunchTests.swift */; };
+		AD4A89D6278EFF9500C06E7B /* TaskManagementCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AB278EFF9400C06E7B /* TaskManagementCoreData.xcdatamodeld */; };
+		AD4A89D7278EFF9500C06E7B /* TaskManagementCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AB278EFF9400C06E7B /* TaskManagementCoreData.xcdatamodeld */; };
+		AD4A89D8278EFF9500C06E7B /* TaskManagementCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AD278EFF9400C06E7B /* TaskManagementCoreDataApp.swift */; };
+		AD4A89D9278EFF9500C06E7B /* TaskManagementCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AD278EFF9400C06E7B /* TaskManagementCoreDataApp.swift */; };
+		AD4A89DC278EFF9500C06E7B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AF278EFF9400C06E7B /* Persistence.swift */; };
+		AD4A89DD278EFF9500C06E7B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89AF278EFF9400C06E7B /* Persistence.swift */; };
+		AD4A89DE278EFF9500C06E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4A89B0278EFF9500C06E7B /* Assets.xcassets */; };
+		AD4A89DF278EFF9500C06E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4A89B0278EFF9500C06E7B /* Assets.xcassets */; };
+		AD4A89F1278EFFF500C06E7B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89F0278EFFF500C06E7B /* Home.swift */; };
+		AD4A89F3278EFFFB00C06E7B /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89F2278EFFFB00C06E7B /* TaskViewModel.swift */; };
+		AD4A89F5278F00EA00C06E7B /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89F4278F00EA00C06E7B /* DynamicFilteredView.swift */; };
+		AD4A89F7278F030A00C06E7B /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A89F6278F030A00C06E7B /* NewTask.swift */; };
+		E76B390685B42D43FA964909 /* Pods_MorSorkorApp__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E78A72CB3EB069DDF1D66C4 /* Pods_MorSorkorApp__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4A89C3278EFF9500C06E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4A89A6278EFF9400C06E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4A89B4278EFF9500C06E7B;
+			remoteInfo = "TaskManagementCoreData (iOS)";
+		};
+		AD4A89CF278EFF9500C06E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4A89A6278EFF9400C06E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD4A89BA278EFF9500C06E7B;
+			remoteInfo = "TaskManagementCoreData (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22DFDEDAC789E9D22B4F76B9 /* Pods-MorSorkorApp (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorSorkorApp (macOS).debug.xcconfig"; path = "Target Support Files/Pods-MorSorkorApp (macOS)/Pods-MorSorkorApp (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3E78A72CB3EB069DDF1D66C4 /* Pods_MorSorkorApp__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorSorkorApp__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECD222DD7C2D0DA2FA3F432 /* Pods-MorSorkorApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorSorkorApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-MorSorkorApp (iOS)/Pods-MorSorkorApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		A3B1E89BE151ED8C23E35269 /* Pods-MorSorkorApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorSorkorApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-MorSorkorApp (macOS)/Pods-MorSorkorApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		A409B6C8D46F28811CC0123E /* Pods-MorSorkorApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorSorkorApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-MorSorkorApp (iOS)/Pods-MorSorkorApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		A9551F8E29DC663800C68AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9551F9629DD03AD00C68AED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A989BE9129DD05FC00D79A3D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A989BE9329DD06BA00D79A3D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		A989BE9629DD074B00D79A3D /* pageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageIntro.swift; sourceTree = "<group>"; };
+		A989BE9929DD07B300D79A3D /* pageLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageLogin.swift; sourceTree = "<group>"; };
+		A989BE9B29DD07CB00D79A3D /* pageLogout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageLogout.swift; sourceTree = "<group>"; };
+		A989BE9E29DD537C00D79A3D /* NotoSansThai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Bold.ttf"; sourceTree = "<group>"; };
+		A989BE9F29DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A989BEA029DD537C00D79A3D /* NotoSansThai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThai-Regular.ttf"; sourceTree = "<group>"; };
+		A989BEA729DD5E3F00D79A3D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AD4A89AC278EFF9400C06E7B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		AD4A89AD278EFF9400C06E7B /* TaskManagementCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementCoreDataApp.swift; sourceTree = "<group>"; };
+		AD4A89AF278EFF9400C06E7B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AD4A89B0278EFF9500C06E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD4A89B5278EFF9500C06E7B /* MorSorkorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorSorkorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A89BB278EFF9500C06E7B /* MorSorkorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorSorkorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A89BD278EFF9500C06E7B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD4A89C2278EFF9500C06E7B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A89C6278EFF9500C06E7B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD4A89C8278EFF9500C06E7B /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD4A89CE278EFF9500C06E7B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4A89D2278EFF9500C06E7B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD4A89D4278EFF9500C06E7B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD4A89F0278EFFF500C06E7B /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD4A89F2278EFFFB00C06E7B /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		AD4A89F4278F00EA00C06E7B /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
+		AD4A89F6278F030A00C06E7B /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
+		B5F137063875EE3769C78FEB /* Pods_MorSorkorApp__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorSorkorApp__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD4A89B2278EFF9500C06E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76B390685B42D43FA964909 /* Pods_MorSorkorApp__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89B8278EFF9500C06E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78EB9DC2E8D68488266963F4 /* Pods_MorSorkorApp__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89BF278EFF9500C06E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89CB278EFF9500C06E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE1CA685B267147CEFF7035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E78A72CB3EB069DDF1D66C4 /* Pods_MorSorkorApp__iOS_.framework */,
+				B5F137063875EE3769C78FEB /* Pods_MorSorkorApp__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A989BE9829DD077A00D79A3D /* SignPage */ = {
+			isa = PBXGroup;
+			children = (
+				A989BE9929DD07B300D79A3D /* pageLogin.swift */,
+				A989BE9B29DD07CB00D79A3D /* pageLogout.swift */,
+			);
+			path = SignPage;
+			sourceTree = "<group>";
+		};
+		A989BE9D29DD51BA00D79A3D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A989BE9E29DD537C00D79A3D /* NotoSansThai-Bold.ttf */,
+				A989BE9F29DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf */,
+				A989BEA029DD537C00D79A3D /* NotoSansThai-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AD4A89A5278EFF9400C06E7B = {
+			isa = PBXGroup;
+			children = (
+				AD4A89AA278EFF9400C06E7B /* Shared */,
+				AD4A89BC278EFF9500C06E7B /* macOS */,
+				AD4A89C5278EFF9500C06E7B /* Tests iOS */,
+				AD4A89D1278EFF9500C06E7B /* Tests macOS */,
+				AD4A89B6278EFF9500C06E7B /* Products */,
+				FA84C1F4250B66EA7BCDF460 /* Pods */,
+				1EE1CA685B267147CEFF7035 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4A89AA278EFF9400C06E7B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A989BE9D29DD51BA00D79A3D /* Fonts */,
+				AD4A89EF278EFFEC00C06E7B /* ViewModel */,
+				AD4A89EE278EFFE700C06E7B /* View */,
+				AD4A89AD278EFF9400C06E7B /* TaskManagementCoreDataApp.swift */,
+				A9551F9629DD03AD00C68AED /* GoogleService-Info.plist */,
+				AD4A89AF278EFF9400C06E7B /* Persistence.swift */,
+				A989BE9329DD06BA00D79A3D /* SplashScreenView.swift */,
+				A9551F8E29DC663800C68AED /* ContentView.swift */,
+				AD4A89B0278EFF9500C06E7B /* Assets.xcassets */,
+				AD4A89AB278EFF9400C06E7B /* TaskManagementCoreData.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD4A89B6278EFF9500C06E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A89B5278EFF9500C06E7B /* MorSorkorApp.app */,
+				AD4A89BB278EFF9500C06E7B /* MorSorkorApp.app */,
+				AD4A89C2278EFF9500C06E7B /* Tests iOS.xctest */,
+				AD4A89CE278EFF9500C06E7B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD4A89BC278EFF9500C06E7B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A89BD278EFF9500C06E7B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD4A89C5278EFF9500C06E7B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A89C6278EFF9500C06E7B /* Tests_iOS.swift */,
+				AD4A89C8278EFF9500C06E7B /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD4A89D1278EFF9500C06E7B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A89D2278EFF9500C06E7B /* Tests_macOS.swift */,
+				AD4A89D4278EFF9500C06E7B /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD4A89EE278EFFE700C06E7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A989BE9829DD077A00D79A3D /* SignPage */,
+				AD4A89F0278EFFF500C06E7B /* Home.swift */,
+				AD4A89F4278F00EA00C06E7B /* DynamicFilteredView.swift */,
+				AD4A89F6278F030A00C06E7B /* NewTask.swift */,
+				A989BE9629DD074B00D79A3D /* pageIntro.swift */,
+				A989BEA729DD5E3F00D79A3D /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD4A89EF278EFFEC00C06E7B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A89F2278EFFFB00C06E7B /* TaskViewModel.swift */,
+				A989BE9129DD05FC00D79A3D /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA84C1F4250B66EA7BCDF460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A409B6C8D46F28811CC0123E /* Pods-MorSorkorApp (iOS).debug.xcconfig */,
+				8ECD222DD7C2D0DA2FA3F432 /* Pods-MorSorkorApp (iOS).release.xcconfig */,
+				22DFDEDAC789E9D22B4F76B9 /* Pods-MorSorkorApp (macOS).debug.xcconfig */,
+				A3B1E89BE151ED8C23E35269 /* Pods-MorSorkorApp (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD4A89B4278EFF9500C06E7B /* MorSorkorApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A89E2278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "MorSorkorApp (iOS)" */;
+			buildPhases = (
+				CAE2FAA132FF0EDC4EC1A3A4 /* [CP] Check Pods Manifest.lock */,
+				AD4A89B1278EFF9500C06E7B /* Sources */,
+				AD4A89B2278EFF9500C06E7B /* Frameworks */,
+				AD4A89B3278EFF9500C06E7B /* Resources */,
+				DEC241652A30335ECCAD629D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MorSorkorApp (iOS)";
+			productName = "TaskManagementCoreData (iOS)";
+			productReference = AD4A89B5278EFF9500C06E7B /* MorSorkorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4A89BA278EFF9500C06E7B /* MorSorkorApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A89E5278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "MorSorkorApp (macOS)" */;
+			buildPhases = (
+				FD2D31E267C68B3D04329A27 /* [CP] Check Pods Manifest.lock */,
+				AD4A89B7278EFF9500C06E7B /* Sources */,
+				AD4A89B8278EFF9500C06E7B /* Frameworks */,
+				AD4A89B9278EFF9500C06E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MorSorkorApp (macOS)";
+			productName = "TaskManagementCoreData (macOS)";
+			productReference = AD4A89BB278EFF9500C06E7B /* MorSorkorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4A89C1278EFF9500C06E7B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A89E8278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD4A89BE278EFF9500C06E7B /* Sources */,
+				AD4A89BF278EFF9500C06E7B /* Frameworks */,
+				AD4A89C0278EFF9500C06E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4A89C4278EFF9500C06E7B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD4A89C2278EFF9500C06E7B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD4A89CD278EFF9500C06E7B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4A89EB278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD4A89CA278EFF9500C06E7B /* Sources */,
+				AD4A89CB278EFF9500C06E7B /* Frameworks */,
+				AD4A89CC278EFF9500C06E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4A89D0278EFF9500C06E7B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD4A89CE278EFF9500C06E7B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD4A89A6278EFF9400C06E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AD4A89B4278EFF9500C06E7B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD4A89BA278EFF9500C06E7B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					AD4A89C1278EFF9500C06E7B = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD4A89B4278EFF9500C06E7B;
+					};
+					AD4A89CD278EFF9500C06E7B = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = AD4A89BA278EFF9500C06E7B;
+					};
+				};
+			};
+			buildConfigurationList = AD4A89A9278EFF9400C06E7B /* Build configuration list for PBXProject "MorSorkorApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD4A89A5278EFF9400C06E7B;
+			productRefGroup = AD4A89B6278EFF9500C06E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD4A89B4278EFF9500C06E7B /* MorSorkorApp (iOS) */,
+				AD4A89BA278EFF9500C06E7B /* MorSorkorApp (macOS) */,
+				AD4A89C1278EFF9500C06E7B /* Tests iOS */,
+				AD4A89CD278EFF9500C06E7B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD4A89B3278EFF9500C06E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89DE278EFF9500C06E7B /* Assets.xcassets in Resources */,
+				A989BEA529DD537C00D79A3D /* NotoSansThai-Regular.ttf in Resources */,
+				A989BEA129DD537C00D79A3D /* NotoSansThai-Bold.ttf in Resources */,
+				A9551F9729DD03AD00C68AED /* GoogleService-Info.plist in Resources */,
+				A989BEA329DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89B9278EFF9500C06E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89DF278EFF9500C06E7B /* Assets.xcassets in Resources */,
+				A989BEA629DD537C00D79A3D /* NotoSansThai-Regular.ttf in Resources */,
+				A989BEA229DD537C00D79A3D /* NotoSansThai-Bold.ttf in Resources */,
+				A9551F9829DD03AD00C68AED /* GoogleService-Info.plist in Resources */,
+				A989BEA429DD537C00D79A3D /* NotoSansThai-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89C0278EFF9500C06E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89CC278EFF9500C06E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAE2FAA132FF0EDC4EC1A3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorSorkorApp (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC241652A30335ECCAD629D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorSorkorApp (iOS)/Pods-MorSorkorApp (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorSorkorApp (iOS)/Pods-MorSorkorApp (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MorSorkorApp (iOS)/Pods-MorSorkorApp (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2D31E267C68B3D04329A27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorSorkorApp (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD4A89B1278EFF9500C06E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89D8278EFF9500C06E7B /* TaskManagementCoreDataApp.swift in Sources */,
+				AD4A89F5278F00EA00C06E7B /* DynamicFilteredView.swift in Sources */,
+				A9551F8F29DC663800C68AED /* ContentView.swift in Sources */,
+				AD4A89F3278EFFFB00C06E7B /* TaskViewModel.swift in Sources */,
+				AD4A89DC278EFF9500C06E7B /* Persistence.swift in Sources */,
+				AD4A89F1278EFFF500C06E7B /* Home.swift in Sources */,
+				AD4A89F7278F030A00C06E7B /* NewTask.swift in Sources */,
+				A989BE9429DD06BA00D79A3D /* SplashScreenView.swift in Sources */,
+				A989BEA829DD5E3F00D79A3D /* LoginView.swift in Sources */,
+				A989BE9A29DD07B300D79A3D /* pageLogin.swift in Sources */,
+				AD4A89D6278EFF9500C06E7B /* TaskManagementCoreData.xcdatamodeld in Sources */,
+				A989BE9729DD074B00D79A3D /* pageIntro.swift in Sources */,
+				A989BE9229DD05FC00D79A3D /* AuthViewModel.swift in Sources */,
+				A989BE9C29DD07CB00D79A3D /* pageLogout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89B7278EFF9500C06E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89D9278EFF9500C06E7B /* TaskManagementCoreDataApp.swift in Sources */,
+				AD4A89DD278EFF9500C06E7B /* Persistence.swift in Sources */,
+				A9551F9029DC663E00C68AED /* ContentView.swift in Sources */,
+				A989BEA929DD5E3F00D79A3D /* LoginView.swift in Sources */,
+				AD4A89D7278EFF9500C06E7B /* TaskManagementCoreData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89BE278EFF9500C06E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89C9278EFF9500C06E7B /* Tests_iOSLaunchTests.swift in Sources */,
+				AD4A89C7278EFF9500C06E7B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4A89CA278EFF9500C06E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4A89D5278EFF9500C06E7B /* Tests_macOSLaunchTests.swift in Sources */,
+				AD4A89D3278EFF9500C06E7B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4A89C4278EFF9500C06E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4A89B4278EFF9500C06E7B /* MorSorkorApp (iOS) */;
+			targetProxy = AD4A89C3278EFF9500C06E7B /* PBXContainerItemProxy */;
+		};
+		AD4A89D0278EFF9500C06E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD4A89BA278EFF9500C06E7B /* MorSorkorApp (macOS) */;
+			targetProxy = AD4A89CF278EFF9500C06E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD4A89E0278EFF9500C06E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD4A89E1278EFF9500C06E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD4A89E3278EFF9500C06E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A409B6C8D46F28811CC0123E /* Pods-MorSorkorApp (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MorSorkorApp;
+				PRODUCT_NAME = MorSorkorApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4A89E4278EFF9500C06E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECD222DD7C2D0DA2FA3F432 /* Pods-MorSorkorApp (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MorSorkorApp;
+				PRODUCT_NAME = MorSorkorApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4A89E6278EFF9500C06E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DFDEDAC789E9D22B4F76B9 /* Pods-MorSorkorApp (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.TaskManagementCoreData;
+				PRODUCT_NAME = MorSorkorApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD4A89E7278EFF9500C06E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B1E89BE151ED8C23E35269 /* Pods-MorSorkorApp (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.TaskManagementCoreData;
+				PRODUCT_NAME = MorSorkorApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD4A89E9278EFF9500C06E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskManagementCoreData (iOS)";
+			};
+			name = Debug;
+		};
+		AD4A89EA278EFF9500C06E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskManagementCoreData (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4A89EC278EFF9500C06E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TaskManagementCoreData (macOS)";
+			};
+			name = Debug;
+		};
+		AD4A89ED278EFF9500C06E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TaskManagementCoreData (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD4A89A9278EFF9400C06E7B /* Build configuration list for PBXProject "MorSorkorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A89E0278EFF9500C06E7B /* Debug */,
+				AD4A89E1278EFF9500C06E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A89E2278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "MorSorkorApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A89E3278EFF9500C06E7B /* Debug */,
+				AD4A89E4278EFF9500C06E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A89E5278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "MorSorkorApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A89E6278EFF9500C06E7B /* Debug */,
+				AD4A89E7278EFF9500C06E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A89E8278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A89E9278EFF9500C06E7B /* Debug */,
+				AD4A89EA278EFF9500C06E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4A89EB278EFF9500C06E7B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4A89EC278EFF9500C06E7B /* Debug */,
+				AD4A89ED278EFF9500C06E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD4A89AB278EFF9400C06E7B /* TaskManagementCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD4A89AC278EFF9400C06E7B /* Shared.xcdatamodel */,
+			);
+			currentVersion = AD4A89AC278EFF9400C06E7B /* Shared.xcdatamodel */;
+			path = TaskManagementCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD4A89A6278EFF9400C06E7B /* Project object */;
+}
